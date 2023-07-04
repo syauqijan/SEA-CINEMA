@@ -1,0 +1,55 @@
+.myBG{
+    background-color: #000000;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 50px;
+    transform: translateY(-50px);
+}
+.carousel {
+    width: 80%; /* Menentukan lebar Carousel */
+    margin-left: auto; /* Mengatur margin kiri dan kanan secara otomatis */
+    margin-right: auto;
+  }
+.carousel-item-bg {
+    background-color: #000000;
+    height:32rem;
+    background-image: url("../Assets/1917.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    
+  }
+
+  .carousel-item-bg2 {
+    background-color: #000000;
+    height:32rem;
+    background-image: url("../Assets/starwars.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    
+  }
+  
+  .carousel-item-bg3 {
+    background-color: #000000;
+    height:32rem;
+    background-image: url("../Assets/lincoln.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    
+  }
+  .carousel-item-bg4 {
+    background-color: #000000;
+    height:32rem;
+    background-image: url("../Assets/scream.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    
+  }
+  

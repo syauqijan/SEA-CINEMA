@@ -16,7 +16,7 @@ const CustomCarousel = () => {
                         <h1>example Headline</h1>
                         <p>example description</p>
                         <a href='#' className='btn btn-lg btn-primary'>
-                            Read More
+                            Readddd
                         </a>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const CustomCarousel = () => {
                     <div className='containerslide'>
                         <h1>example Headline</h1>
                         <p>example description</p>
-                        <a href='#' className='btn btn-primary'>
+                        <a href='#' className='btn btn-lg btn-primary'>
                         Read 
                         </a>
                     </div>
@@ -33,7 +33,7 @@ const CustomCarousel = () => {
                     <div className='containerslide'>
                         <h1>example Headline</h1>
                         <p>example description</p>
-                        <a href='#' className='btn btn-primary'>
+                        <a href='#' className='btn btn-lg btn-primary'>
                         Read 
                         </a>
                     </div>

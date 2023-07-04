@@ -7,78 +7,85 @@ import jojo from "../Assets/list/jojo.webp";
 import blade from "../Assets/list/blade.webp";
 import aftersun from "../Assets/list/aftersun.jpg";
 import every from "../Assets/list/every.jpg";
+import toy from "../Assets/list/toy.jpg";
+import { Link } from "react-router-dom";
 const Movies = () => {
     return (
         <div className="containerm">
             <br />
-            <h1 className="text"  >Now Showing</h1>
+            <h1 className="text"  >NOW SHOWING IN CINEMA</h1>
             <main className="grid">
                 <article>
-                    <img src={dune} alt="Dune" width="300px" height="400px" />
+                    <Link to = "/dune">
+                    <img src={dune} alt="Dune" width="250px" height="350px" />
                     <div className="text-white">
                         <h3>Dune</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
+                    
                     </div>
+                    </Link>
                 </article>
                 <article>
-                    <img src={joker} alt="Dune" width="300px" height="400px"/>
+                    <Link to = "/joker">
+                    <img src={joker} alt="Dune" width="250px" height="350px"/>
                     <div className="text-white">
                         <h3>Joker</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
+                        
 
                     </div>
+                    </Link>
                 </article>
                 <article>
-                    <img src={jojo} alt="Dune" width="300px" height="400px"/>
+                    <img src={jojo} alt="Dune" width="250px" height="350px"/>
                     <div className="text-white">
                         <h3>Jojo</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
+                        
                     </div>
                 </article>
                 <article>
-                    <img src={batman} alt="Dune" width="300px" height="400px"/>
+                    <img src={batman} alt="Dune" width="250px" height="350px"/>
                     <div className="text-white">
                         <h3>Batman</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
+                        
                     </div>
                 </article>
                 <article>
-                    <img src={hereditary} alt="Dune" width="300px" height="400px" />
+                    <Link to = "/toy">
+                    <img src={toy} alt="Dune" width="250px" height="350px" />
                     <div className="text-white">
                         <h3>Dune</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
-
+                        
                     </div>
+                    </Link>
                 </article>
                 <article>
-                    <img src={budapest} alt="Dune" width="300px" height="400px"/>
+                    <img src={budapest} alt="Dune" width="250px" height="350px"/>
                     <div className="text-white">
                         <h3>Joker</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
+                        
 
                     </div>
                 </article>
                 <article>
-                    <img src={every} alt="Dune" width="300px" height="400px"/>
+                    <img src={every} alt="Dune" width="250px" height="350px"/>
                     <div className="text-white">
                         <h3>Jojo</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
+                        
 
                     </div>
                 </article>
                 <article>
-                    <img src={aftersun} alt="Dune" width="300px" height="400px"/>
+                    <img src={aftersun} alt="Dune" width="250px" height="350px"/>
                     <div className="text-white">
                         <h3>Batman</h3>
                         <p>Description bla bla bla</p>
-                        <a href="#" target="_blank" rel="noreferrer" className='btn btn-lg btn-primary'>Buy Ticket</a>
+                        
 
                     </div>
                 </article>

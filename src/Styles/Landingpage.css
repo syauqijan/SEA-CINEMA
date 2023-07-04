@@ -1,168 +1,44 @@
+
 .myBG{
-    height: 100vh;
-    background: #121010;
-    background-size: cover;
+  height: auto;
+  background: #000000;
+  background-size: cover;
 }
 .navbar{
-    height: 110px;
-    width: 100%;
-    background: #121010;
+  height: 110px;
+  width: 100%;
+  background: #000000;
 
 }
-/* .slider-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-  }
-  
-  .carousel-container {
-    width: 80%;
-    max-width: 1000px;
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .image-left {
-    flex: 1;
-    width: 50%;
-    border: 1px solid;
-    border-right: none;
-    margin: 5px;
-  }
-  
-  .image-right {
-    flex: 1;
-    width: 50%;
-    border: 1px solid;
-    border-left: none;
-    margin: 5px;
-  }
-  
-  .image-center {
-    flex: 1;
-    width: 50%;
-    border: 1px solid;
-    margin: 5px;
-    
-  } */
-  
-.carousel-item{
-    height: 32rem;
-    width: 100%;
-    background: #000000;
-    color: #fff;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
-
-}
-
-.containerslide{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-left: 200px;
-    padding-bottom: 50px;
-}
-.carousel-item:nth-child(1) {
-    background-image: url("../Assets/1917.jpg");
-    opacity: 0.5;
-    /* Other CSS properties for the first carousel item */
-  }
-  
-  .carousel-item:nth-child(2) {
-    background-image: url("../Assets/lincoln.jpg");
-    
-    opacity: 0.5;
-    /* Other CSS properties for the second carousel item */
-  }
-  .carousel-item:nth-child(3) {
-    background-image: url("../Assets/starwars.jpg");
-    
-    opacity: 0.5;
-  /* Add more styles for other carousel items if needed */
-  }
-
- .containerl{
-        height: 100%;
-        background: #121010;
-        background-size: cover;
- }
-  .trending {
-    height: auto;
-    background-color: black;
-    background-size: cover;
-  }
-
-.movieWrapper{
-    position: relative;
-    height: 1000px;
-    width: 100px;
-    top: 100px;
-    bottom: 100px;
-    left: 100px;
-    right: 100px;
-    justify-content: center;
-    align-items: center;
-    background: #121010;
-    
-}
-.movieWrapper2{
-    position: relative;
-    height: 1000px;
-    width: 100px;
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
-    right: 100px;
-    
-    justify-content: center;
-    align-items: center;
-    background: #121010;
-    
-}
-.movieImage {
-  height: auto;
-  background-color: black;
-  margin: 5px;
-  padding: 5px;
-}
-
-.images {
-  height: 250px;
-  width: 200px;
-}
-
 .grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 80px;
   align-items: center;
   justify-content: center;
-  grid-gap: 40px;
-
-}
-.containerm{
+  grid-gap: 10px;
+  
+  }
+  .containerm{
     height: auto;
-    background: #121010;
+    background: #000000;
     background-size: cover;
-}
-.img{
-  object-fit: cover;
-}
-
-.grid > article{
-  text-align: center;
-  background: darkgrey;
-}
-
-.btn{
+    padding: 100px;
+  }
+  .img{
+    object-fit: cover;
+    
+  
+  }
+  
+  .grid > article{
+    width: 300px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  .btn{
   background-color: #a01c1c;
   color: rgb(0, 0, 0);
   border: 1px solid white;
@@ -175,14 +51,17 @@
   transition: 0.6s ease;
   position: relative;
   overflow: hidden;
-}
-
-.text{
+  }
+  
+  .text{
   text-align: start;
   position: relative;
-  top: 20px;
-  left: 70px;
+  top: 40px;
+  left: 85px;
   bottom: 0;
   color: white;
-  font-size: 40px;
-}
+  font-size: 35px;
+  }
+
+
+

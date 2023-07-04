@@ -1,4 +1,5 @@
 import {Navbar, Container, Nav} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import logo from "../Assets/logosc.png"
 import profile from "../Assets/profile.png"
 import '../Styles/Navbar.css';
@@ -18,8 +19,8 @@ const Navigation = () => {
                 />
                 SEA CINEMA</Navbar.Brand>
                 <Nav>
-                <Nav.Link>Home</Nav.Link>
-                <Nav.Link>Movies</Nav.Link>
+                <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link><Link to="/carousel">Movies</Link></Nav.Link>
                 <img
                 src = {profile}
                 width="40"

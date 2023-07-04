@@ -1,0 +1,192 @@
+/* PopUp.css */
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px; /* Lebar tetap */
+    height: 650px; /* Tinggi tetap */
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content {
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .seat-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .seat-number {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(105, 105, 105); /* Warna latar belakang kursi terpilih */
+    color: #ffffff;
+    border-radius: 7px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .seat.selected {
+    background-color: #ffcc00;
+    color: #000000; /* Warna latar belakang kursi terpilih */
+  }
+  
+  .btn {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-weight: bold;
+    
+  }
+  .btn-primary {
+    background-color: #ffcc00;
+    color: #000000;
+    border: 0px solid #ffcc00;
+    border-radius: 20px;
+    width: 150px;
+
+    transition: background-color 0.3s ease; /* Transisi perubahan warna */
+}
+
+.btn-primary:hover {
+  background-color: #e6b907; /* Warna latar belakang saat dihover */
+  color: #000000;
+}
+.btn-primary:active {
+    background-color: #ff9900; /* Warna latar belakang saat diklik */
+    color: #ffffff; /* Warna teks saat diklik */
+  }
+  
+  .screen {
+    width: 100%;
+    height: 20px;
+    background-color: #000000;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .screen-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .exit-button{
+    left: 360px;
+    top: 10px;
+  }
+  
+  .titlePopup{
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .normalText{
+    font-size: 15px;
+    font-weight: medium;
+  
+  }
+
+  .legend-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .legend-color {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 2px;
+  }
+  
+  .available {
+    background-color: rgb(105, 105, 105);
+  }
+  
+  .unavailable {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .your-seat {
+    background-color: #ffcc00;
+  }
+  
+  .legend-text {
+    font-size: 14px;
+  }
+  
+  .borderLegend{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+.note-container{
+  display: flex;
+  justify-content: center;
+}
+
+.containerPersonal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.containerPersonal h2 {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: medium;
+  font-size: 16px;
+}
+
+.form-group input {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
