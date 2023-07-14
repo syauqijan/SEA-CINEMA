@@ -2,12 +2,12 @@
 import React, { useState, useRef } from "react";
 import Navigation from "../../Components/Navbar";
 import { Link } from "react-router-dom";
-import toy from "../../Assets/list/toy.jpg";
+import budapest from "../../Assets/list/budapest.webp";
 import PopUp from "../../Components/Popup";
 import "../../Styles/MoviesDetail.css";
 
 
-const Toy = () => {
+const Budapest = () => {
     const [showPopUp, setShowPopUp] = useState(false);
     const [ageRating, setAgeRating] = useState(""); // Tambahkan state untuk age rating
 
@@ -23,22 +23,23 @@ const Toy = () => {
     };
     const ageRatingRef = useRef(null);
     const movieTitleRef = useRef(null);
+
     return (
         <div className="detailBody">
             <Navigation/>
             <div className="containerDetail">
             <div className="row">
                 <div className="col-md-3">
-                <img src={toy} alt="Movie Poster" width="250px" height="350px" style={{marginLeft:"50px", marginTop:"15px"}}/>
+                <img src={budapest} alt="Movie Poster" width="250px" height="350px" style={{marginLeft:"50px", marginTop:"15px"}}/>
                 </div>
                 <div className="col-md-8">
-                <h1 ref={movieTitleRef}>TOY STORY 4</h1>
+                <h1 ref={movieTitleRef}>THE GRAND BUDAPEST HOTEL</h1>
                 <hr className="separator"/>
-                <p>Woody has always been confident about his place in the world and that his priority is taking care of his kid, whether that’s Andy or Bonnie. But when Bonnie adds a reluctant new toy called “Forky” to her room, a road trip adventure alongside old and new friends will show Woody how big the world can be for a toy.</p>
+                <p>The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.</p>
                 <h4>Cast</h4>
-                <p>Tom Hanks, Joan Cusack, Jodi Benson, Patricia Arquette </p>
+                <p>Ralph Fiennes, Mathieu Amalric, Jeff Goldblum, Bill Murray </p>
                 <h4>Age Rating</h4>
-                <p ref={ageRatingRef}>G</p>
+                <p ref={ageRatingRef}>R</p>
                 <h4>Ticket Price</h4>
                 <p>50.000 IDR</p>
                 <button className="btn btn-primary" onClick={handleBuyTicket}>Buy Ticket</button>
@@ -52,6 +53,6 @@ const Toy = () => {
     )
 }
 
-export default Toy
+export default Budapest
 
 

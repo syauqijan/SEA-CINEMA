@@ -39,7 +39,6 @@
   }
   
   .btn{
-  background-color: #a01c1c;
   color: rgb(0, 0, 0);
   border: 1px solid white;
   padding: 10px 20px;
@@ -52,6 +51,10 @@
   position: relative;
   overflow: hidden;
   }
+  btn btn-primary:active{
+    background-color: #000000;
+  }
+
   
   .text{
   text-align: start;
@@ -62,6 +65,5 @@
   color: white;
   font-size: 35px;
   }
-
 
 

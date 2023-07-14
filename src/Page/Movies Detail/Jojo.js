@@ -2,12 +2,12 @@
 import React, { useState, useRef } from "react";
 import Navigation from "../../Components/Navbar";
 import { Link } from "react-router-dom";
-import toy from "../../Assets/list/toy.jpg";
+import jojo from "../../Assets/list/jojo.webp";
 import PopUp from "../../Components/Popup";
 import "../../Styles/MoviesDetail.css";
 
 
-const Toy = () => {
+const Jojo = () => {
     const [showPopUp, setShowPopUp] = useState(false);
     const [ageRating, setAgeRating] = useState(""); // Tambahkan state untuk age rating
 
@@ -29,16 +29,16 @@ const Toy = () => {
             <div className="containerDetail">
             <div className="row">
                 <div className="col-md-3">
-                <img src={toy} alt="Movie Poster" width="250px" height="350px" style={{marginLeft:"50px", marginTop:"15px"}}/>
+                <img src={jojo} alt="Movie Poster" width="250px" height="350px" style={{marginLeft:"50px", marginTop:"15px"}}/>
                 </div>
                 <div className="col-md-8">
-                <h1 ref={movieTitleRef}>TOY STORY 4</h1>
+                <h1 ref={movieTitleRef}>JOJO RABBIT</h1>
                 <hr className="separator"/>
-                <p>Woody has always been confident about his place in the world and that his priority is taking care of his kid, whether that’s Andy or Bonnie. But when Bonnie adds a reluctant new toy called “Forky” to her room, a road trip adventure alongside old and new friends will show Woody how big the world can be for a toy.</p>
+                <p>A World War II satire that follows a lonely German boy whose world view is turned upside down when he discovers his single mother is hiding a young Jewish girl in their attic. Aided only by his idiotic imaginary friend, Adolf Hitler, Jojo must confront his blind nationalism.</p>
                 <h4>Cast</h4>
-                <p>Tom Hanks, Joan Cusack, Jodi Benson, Patricia Arquette </p>
+                <p>Roman Griffin Davis, Taika Waititi, Thomasin McKenzie, Scarlett Johansson </p>
                 <h4>Age Rating</h4>
-                <p ref={ageRatingRef}>G</p>
+                <p ref={ageRatingRef}>PG-13</p>
                 <h4>Ticket Price</h4>
                 <p>50.000 IDR</p>
                 <button className="btn btn-primary" onClick={handleBuyTicket}>Buy Ticket</button>
@@ -52,6 +52,6 @@ const Toy = () => {
     )
 }
 
-export default Toy
+export default Jojo
 
 

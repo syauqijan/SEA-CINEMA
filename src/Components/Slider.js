@@ -1,58 +1,61 @@
-import React from 'react';
-const CustomCarousel = () => {
+import React from "react";
+import { Carousel } from "react-bootstrap";
+import sembilan from "../Assets/1917.jpg";
+import star from "../Assets/starwars.jpg";
+import lincoln from "../Assets/lincoln.jpg";
+import "../Styles/Slider.css";
+
+const Slider = () => {
   return (
-    <div>
-        <div id="myCarousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
-            <ol className="carousel-indicators">
-                <li data-bs-target="#myCarousel" data-bs-slide-to="0" className="active"></li>
-                <li data-bs-target="#myCarousel" data-bs-slide-to="1" ></li>
-                <li data-bs-target="#myCarousel" data-bs-slide-to="2" ></li>
-
-            </ol>
-            <div className='carousel-inner'>
-                <div className='carousel-item active'>
-                    
-                    <div className='containerslide'>
-                        <h1>example Headline</h1>
-                        <p>example description</p>
-                        <a href='#' className='btn btn-lg btn-primary'>
-                            Readddd
-                        </a>
-                    </div>
-                </div>
-                <div className='carousel-item'>
-                    <div className='containerslide'>
-                        <h1>example Headline</h1>
-                        <p>example description</p>
-                        <a href='#' className='btn btn-lg btn-primary'>
-                        Read 
-                        </a>
-                    </div>
-                </div>
-                <div className='carousel-item'>
-                    <div className='containerslide'>
-                        <h1>example Headline</h1>
-                        <p>example description</p>
-                        <a href='#' className='btn btn-lg btn-primary'>
-                        Read 
-                        </a>
-                    </div>
-                </div>
+    <div className="myBG">
+      <Carousel interval={3000} pause={false} wrap={true}>
+        <Carousel.Item>
+          <div className="carousel-item-bg">
+            <div className="containerslider">
+              <h1>Example Headline 1</h1>
+              <p>Example description 1</p>
+              <a href="#" className="btn btn-lg btn-primary">
+                Read
+              </a>
             </div>
-            <a href='#myCarousel' className='carousel-control-prev' role='button' data-bs-slide='prev'>
-                <span className='visually-hidden'>Previous</span>
-                <span className='carousel-control-prev-icon' aria-hidden='true'></span>
-            </a>
-            <a href='#myCarousel' className='carousel-control-next' role='button' data-bs-slide='next'>
-                <span className='visually-hidden'>Next</span>
-                <span className='carousel-control-next-icon' aria-hidden='true'></span>
-            </a>
-        </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="carousel-item-bg2">
+            <div className="containerslider">
+              <h1>Example Headline 2</h1>
+              <p>Example description 2</p>
+              <a href="#" className="btn btn-lg btn-primary">
+                Read
+              </a>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="carousel-item-bg3">
+            <div className="containerslider">
+              <h1>Example Headline 2</h1>
+              <p>Example description 2</p>
+              <a href="#" className="btn btn-lg btn-primary">
+                Read
+              </a>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="carousel-item-bg4">
+            <div className="containerslider">
+              <h1>Example Headline 2</h1>
+              <p>Example description 2</p>
+              <a href="#" className="btn btn-lg btn-primary">
+                Read
+              </a>
+            </div>
+          </div>
+        </Carousel.Item>
+      </Carousel>
     </div>
-
-
-
   );
 }
 
-export default CustomCarousel;
+export default Slider;

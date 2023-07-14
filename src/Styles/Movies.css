@@ -1,0 +1,20 @@
+.infoDetail{
+    display: flex;
+    margin-left: 5px;
+}
+
+.time-icon{
+    color: white;
+}
+
+.duration{
+    margin-left: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.age-rating{
+    margin-left: 150px;
+    color: white;
+    font-size: 16px;
+}

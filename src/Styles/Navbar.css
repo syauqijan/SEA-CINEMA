@@ -1,20 +1,33 @@
 .navbar{
-    background-color: #4c4f3d;
+    background-color: #000000;
     color: #fff;
-    padding: 10px;
+
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px #000;
-    font: segoe ui;
     font-size: 20px;
+    height: 70px;
 }
 
-.ContainerSlider{
 
-    height: 10px;
-    width: 10px;;
+.top-icon{
+    margin-top:10px;
+    margin-left: 15px;
+    display: flex;
+}
 
-
+.logosc{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top:-9px;
+}
+.text-title{
+    margin-top:4px;
+    margin-left: 2px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
   

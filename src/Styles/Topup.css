@@ -1,0 +1,70 @@
+.top-up-container {
+    margin-top: 20px;
+  }
+  
+  .top-up-amount {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    background-color: #e0b71f;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .top-up-amount.selected {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .top-up-amount:focus {
+    outline: none;
+  }
+  
+  .custom-amount-input {
+    margin-top: 10px;
+    padding: 5px;
+
+  }
+  
+  .topUpButton:hover {
+    background-color: #a58820;
+  }
+  
+  .topUpButton:focus {
+    outline: none;
+  }
+  
+  .topUpButton{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e0b71f;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .numpad button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e0b71f;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .numpad button:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .numpad button:focus {
+    outline: none;
+  }
+  

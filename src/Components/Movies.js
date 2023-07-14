@@ -9,6 +9,8 @@ import aftersun from "../Assets/list/aftersun.jpg";
 import every from "../Assets/list/every.jpg";
 import toy from "../Assets/list/toy.jpg";
 import { Link } from "react-router-dom";
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import '../Styles/Movies.css';
 const Movies = () => {
     return (
         <div className="containerm">
@@ -20,74 +22,100 @@ const Movies = () => {
                     <img src={dune} alt="Dune" width="250px" height="350px" />
                     <div className="text-white">
                         <h3>Dune</h3>
-                        <p>Description bla bla bla</p>
+                        
                     
                     </div>
                     </Link>
                 </article>
                 <article>
                     <Link to = "/joker">
-                    <img src={joker} alt="Dune" width="250px" height="350px"/>
+                    <img src={joker} alt="joker" width="250px" height="350px"/>
                     <div className="text-white">
                         <h3>Joker</h3>
-                        <p>Description bla bla bla</p>
+                        
                         
 
                     </div>
                     </Link>
                 </article>
                 <article>
-                    <img src={jojo} alt="Dune" width="250px" height="350px"/>
+                    <Link to = "/jojo">
+                    <img src={jojo} alt="jojo" width="250px" height="350px"/>
                     <div className="text-white">
-                        <h3>Jojo</h3>
-                        <p>Description bla bla bla</p>
-                        
+                        <h3>Jojo Rabbit</h3>
+                    
                     </div>
-                </article>
-                <article>
-                    <img src={batman} alt="Dune" width="250px" height="350px"/>
-                    <div className="text-white">
-                        <h3>Batman</h3>
-                        <p>Description bla bla bla</p>
-                        
-                    </div>
+                    </Link>
                 </article>
                 <article>
                     <Link to = "/toy">
-                    <img src={toy} alt="Dune" width="250px" height="350px" />
+                    <img src={toy} alt="toy" width="250px" height="350px" />
                     <div className="text-white">
-                        <h3>Dune</h3>
-                        <p>Description bla bla bla</p>
+                        <h3>Toy Story 4</h3>
+                        
                         
                     </div>
                     </Link>
                 </article>
                 <article>
-                    <img src={budapest} alt="Dune" width="250px" height="350px"/>
+                    <Link to="/batman">
+                    <img src={batman} alt="batman" width="250px" height="350px"/>
                     <div className="text-white">
-                        <h3>Joker</h3>
-                        <p>Description bla bla bla</p>
+                        <h3>The Dark Knight Rises</h3>
+                    </div>
+                    </Link>
+                </article>
+                
+                <article>
+                    <Link to="/budapest">
+                    <img src={budapest} alt="budapest" width="250px" height="350px"/>
+                    <div className="text-white">
+                        <div className="infoMovie">
+                            <h3>The Grand Budapest Hotel</h3>
+                            <div className="infoDetail">
+                                <AccessTimeIcon className="time-icon" sx={{ fontSize: 20}}/>
+                                <div className="duration">1h 40m</div>
+                                <div className="age-rating">R</div>
+                            </div>
+                        </div>
                         
 
                     </div>
+                    </Link>
                 </article>
                 <article>
-                    <img src={every} alt="Dune" width="250px" height="350px"/>
+                <Link to="/eeaao">
+                    <img src={every} alt="budapest" width="250px" height="350px"/>
                     <div className="text-white">
-                        <h3>Jojo</h3>
-                        <p>Description bla bla bla</p>
+                        <div className="infoMovie">
+                            <h3>Everything Everywhere All at Once</h3>
+                            <div className="infoDetail">
+                                <AccessTimeIcon className="time-icon" sx={{ fontSize: 20}}/>
+                                <div className="duration">1h 40m</div>
+                                <div className="age-rating">R</div>
+                            </div>
+                        </div>
                         
 
                     </div>
+                    </Link>
                 </article>
                 <article>
-                    <img src={aftersun} alt="Dune" width="250px" height="350px"/>
+                <Link to="/aftersun">
+                    <img src={aftersun} alt="budapest" width="250px" height="350px"/>
                     <div className="text-white">
-                        <h3>Batman</h3>
-                        <p>Description bla bla bla</p>
+                        <div className="infoMovie">
+                            <h3>The Grand Budapest Hotel</h3>
+                            <div className="infoDetail">
+                                <AccessTimeIcon className="time-icon" sx={{ fontSize: 20}}/>
+                                <div className="duration">1h 40m</div>
+                                <div className="age-rating">R</div>
+                            </div>
+                        </div>
                         
 
                     </div>
+                    </Link>
                 </article>
             </main>
         </div>

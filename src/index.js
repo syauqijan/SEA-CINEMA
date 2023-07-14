@@ -13,11 +13,20 @@ import Dashboard from './Page/Dashboard';
 import Dune from './Page/Movies Detail/Dune';
 import Toy from './Page/Movies Detail/Toy';
 import Joker from './Page/Movies Detail/Joker';
+import Jojo from './Page/Movies Detail/Jojo';
+import Batman from './Page/Movies Detail/Batman';
+import Budapest from './Page/Movies Detail/Budapest';
+import Eeaao from './Page/Movies Detail/Eeaao';
+import Aftersun from './Page/Movies Detail/Aftersun';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard/>,
   },
   {
     path: "/signin",
@@ -42,6 +51,26 @@ const router = createBrowserRouter([
   {
     path: "/joker",
     element: <Joker/>,
+  },
+  {
+    path: "/jojo",
+    element: <Jojo/>,
+  },
+  {
+    path: "/batman",
+    element: <Batman/>,
+  },
+  {
+    path: "/budapest",
+    element: <Budapest/>,
+  },
+  {
+    path: "/eeaao",
+    element: <Eeaao/>,
+  },
+  {
+    path: "/aftersun",
+    element: <Aftersun/>,
   },
 ]);
 

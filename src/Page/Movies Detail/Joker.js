@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Navigation from "../../Components/Navbar";
 import { Link } from "react-router-dom";
 import joker from "../../Assets/list/joker.webp";
@@ -9,9 +9,11 @@ import "../../Styles/MoviesDetail.css";
 
 const Joker = () => {
     const [showPopUp, setShowPopUp] = useState(false);
+    const [ageRating, setAgeRating] = useState(""); // Tambahkan state untuk age rating
 
     // Fungsi untuk menampilkan pop-up
-    const handleBuyTicket = () => {
+    const handleBuyTicket = (rating) => {
+        setAgeRating(rating); // Set age rating berdasarkan parameter rating
         setShowPopUp(true);
     };
 
@@ -19,6 +21,8 @@ const Joker = () => {
     const handleClosePopUp = () => {
         setShowPopUp(false);
     };
+    const ageRatingRef = useRef(null);
+    const movieTitleRef = useRef(null);
 
     return (
         <div className="detailBody">
@@ -29,16 +33,19 @@ const Joker = () => {
                 <img src={joker} alt="Movie Poster" width="250px" height="350px" style={{marginLeft:"50px", marginTop:"15px"}}/>
                 </div>
                 <div className="col-md-8">
-                <h1>Joker</h1>
+                <h1 ref={movieTitleRef} >JOKER</h1>
                 <hr className="separator"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h3>Age Rating</h3>
-                <p>PG-13</p>
-                <h3>Ticket Price</h3>
-                <p>$10</p>
+                <p>During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.</p>
+                <h4>Cast</h4>
+                <p>Joaquin Phoenix, Frances Conroy, Bill Camp, Robert De Niro </p>
+                <h4>Age Rating</h4>
+                <p ref={ageRatingRef}>R</p>
+                <h4>Ticket Price</h4>
+                <p>50.000 IDR</p>
                 <button className="btn btn-primary" onClick={handleBuyTicket}>Buy Ticket</button>
 
-                    {showPopUp && <PopUp onClose={handleClosePopUp} />}
+                {showPopUp && <PopUp onClose={handleClosePopUp} ageRatingRef={ageRatingRef} movieTitleRef={movieTitleRef} />}
+
                 </div>
             </div>
             </div>
