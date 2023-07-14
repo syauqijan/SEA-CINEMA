@@ -13,15 +13,6 @@ Sea Cinema is a web application that allows users to browse movies, book tickets
 4. Material-UI: UI library for icons and components.
 
 
-## Build Program
-To build the Maze Solver program, follow these steps:
-
-1. Clone this repository
-2. Open Visual Studio 2022 and navigate to the cloned repository.
-3. Open the solution file `TESTING.sln` in Visual Studio.
-4. From the top toolbar, click on `Build` and then select `Build Solution`.
-5. After the build process is complete, your executable file should be located in the `./bin` directory. Look for `TESTING.exe` in that directory.
-
 ## Installation
 To run the Maze Solver program, follow these steps:
 
@@ -48,5 +39,5 @@ npm start
 ![Dashboard](./public/dashboard.jpg)
 ![Now Showing](./public/now-showing.jpg)
 ![Movie Details](./public/movie-details.jpg)
-![Seat Selection](./public/seat-selection.jpg)
-![Payment](./public/payment.jpg)
+![Seat Selection](./public/select-seat.jpg)
+![Topup](./public/topup-balance.jpg)
