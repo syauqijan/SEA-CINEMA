@@ -17,27 +17,27 @@ Sea Cinema is a web application that allows users to browse movies, book tickets
 To run the Maze Solver program, follow these steps:
 
 1. Clone this repository
-'''bash
+'''
 git clone https://github.com/your-username/sea-cinema.git
 '''
 2. Navigate to the project directory:
-'''bash
-cd sea-cinema
+'''
+cd seacinema
 '''
 3. Install the dependencies:
-'''bash
+'''
 npm install
 '''
 4. Start the development server:
-'''bash
+'''
 npm start
 '''
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
                                   
-## Documentation
+## Screenshots
 
 ![Dashboard](./public/dashboard.jpg)
 ![Now Showing](./public/now-showing.jpg)
 ![Movie Details](./public/movie-details.jpg)
-![Seat Selection](./public/select-seat.jpg)
+![Seat Selection](./public/select-seats.jpg)
 ![Topup](./public/topup-balance.jpg)
