@@ -22,7 +22,7 @@ git clone https://github.com/your-username/sea-cinema.git
 ```
 2. Navigate to the project directory:
 ```
-cd seacinema
+cd sea-cinema
 ```
 3. Install the dependencies:
 ```
