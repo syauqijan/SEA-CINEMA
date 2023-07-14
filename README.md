@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Sea Cinema
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Program
+Sea Cinema is a web application that allows users to browse movies, book tickets, and manage their cinema experience. Users can view movie details, including synopsis, cast, age rating, and ticket price. They can also select seats, provide personal information, and make payments for their movie tickets.
 
-## Available Scripts
+## Technologies Used
+1. React: Front-end JavaScript library for building user interfaces.
 
-In the project directory, you can run:
+2. React Router: Library for routing in React applications.
 
-### `npm start`
+3. React Bootstrap: UI library for styling and components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Material-UI: UI library for icons and components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Build Program
+To build the Maze Solver program, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository
+2. Open Visual Studio 2022 and navigate to the cloned repository.
+3. Open the solution file `TESTING.sln` in Visual Studio.
+4. From the top toolbar, click on `Build` and then select `Build Solution`.
+5. After the build process is complete, your executable file should be located in the `./bin` directory. Look for `TESTING.exe` in that directory.
 
-### `npm run build`
+## Installation
+To run the Maze Solver program, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository
+'''bash
+git clone https://github.com/your-username/sea-cinema.git
+'''
+2. Navigate to the project directory:
+'''bash
+cd sea-cinema
+'''
+3. Install the dependencies:
+'''bash
+npm install
+'''
+4. Start the development server:
+'''bash
+npm start
+'''
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+                                  
+## Documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Dashboard](./public/dashboard.jpg)
+![Now Showing](./public/now-showing.jpg)
+![Movie Details](./public/movie-details.jpg)
+![Seat Selection](./public/seat-selection.jpg)
+![Payment](./public/payment.jpg)

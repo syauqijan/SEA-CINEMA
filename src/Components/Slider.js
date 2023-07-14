@@ -23,10 +23,10 @@ const Slider = () => {
         <Carousel.Item>
           <div className="carousel-item-bg2">
             <div className="containerslider">
-              <h1>Example Headline 2</h1>
-              <p>Example description 2</p>
+              <h1>Star Wars</h1>
+              <p>Advance Ticket Sales</p>
               <a href="#" className="btn btn-lg btn-primary">
-                Read
+                Buy Now
               </a>
             </div>
           </div>
